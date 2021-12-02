@@ -1,0 +1,15 @@
+
+
+
+server:
+  port: 31001
+mqtt:
+  username: jkct
+  password: 310012
+  url: tcp://172.16.5.20:1883
+#  producer:
+#    clientId: jkctProducer
+#    defaultTopic: testMqttTopic
+#  consumer:
+#    clientId: jkctConsumer
+#    defaultTopic: testMqttTopic
