@@ -1,12 +1,16 @@
 
 
+MQTT_USERNAME: jkct
+MQTT_PASSWORD: 310012
+MQTT_URL: tcp://172.16.5.20:1883
+
 
 server:
-  port: 31001
+  port: 31001 # 18091
 mqtt:
-  username: jkct
-  password: 310012
-  url: tcp://172.16.5.20:1883
+  username: ${MQTT_USERNAME}
+  password: ${MQTT_PASSWORD}
+  url: ${MQTT_URL}
 #  producer:
 #    clientId: jkctProducer
 #    defaultTopic: testMqttTopic
